@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alix.com / BluRay / 1080p / Dublajlı / Altyazılı / İngilizce / İndirilebilir Filmler ve Diziler</title>
+    
+    <link rel="stylesheet" href="./assets/libs/fontawesome-5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/libs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/libs/aurora-forms/aurora.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <script src="./assets/libs/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="./assets/libs/js-cookie-master/js.cookie.min.js"></script>
+</head>
+<body class="dark ">
+    <script>
+        function theme_mode(mode = "dark") {
+            if(mode == "dark") {
+                if(!$("body").hasClass("dark")) {
+                    $(".header-theme-changer").addClass("active");
+                    $("body").addClass("dark");
+                    Cookies.set('theme', 'dark');
+                }
+            } else if(mode == "light") {
+                if($("body").hasClass("dark")) {
+                    $(".header-theme-changer").removeClass("active");
+                    $("body").removeClass("dark");
+                    Cookies.set('theme', 'light');
+                }
+            }
+        
+        }
+        function init() {
+            let theme = Cookies.get('theme');
+            if(theme == undefined) {
+                Cookies.set('theme', 'dark');
+            } else {
+                if(theme == 'dark') {
+                    theme_mode('dark');
+                } else if(theme == 'light') {
+                    theme_mode('light');
+                }
+            }
+        }
+        init();
+    </script>
+    
+    <header class="header">
+        <a href="#" class="header-brand">ALIX</a>
+        <div class="header-theme-changer">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="header-menu-container">
+            <a href="#" class="header-menu-item category-item">
+                <span>Kategori</span>
+                <span class="fas fa-angle-down"></span>
+                <div class="menu-item-category hide" style="width:300px">
+                    <ul>
+                        <li>Aile</li>
+                        <li>Aksiyon</li>
+                        <li>Animasyon</li>
+                        <li>Belgesel</li>
+                        <li>Bilim Kurgu</li>
+                        <li>Biyografi</li>
+                        <li>Çizgi Film</li>
+                        <li>Dans</li>
+                        <li>Dram</li>
+                        <li>Fantastik</li>
+                        <li>Genel</li>
+                        <li>Gençlik</li>
+                        <li>Gerilim</li>
+                        <li>Gizem</li>
+                        <li>Hint</li>
+                        <li>Komedi</li>
+                        <li>Korku</li>
+                        <li>Macera</li>
+                        <li>Müzikal</li>
+                        <li>Polisiye</li>
+                        <li>Romantik</li>
+                        <li>Savaş</li>
+                        <li>Suç</li>
+                        <li>Spor</li>
+                        <li>Tarih</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#" class="header-menu-item category-item">
+                <span>Tarihe Göre</span>
+                <span class="fas fa-angle-down"></span>
+                <div class="menu-item-category hide" style="width:150px">
+                    <ul>
+                        <li>2009</li>
+                        <li>2010</li>
+                        <li>2011</li>
+                        <li>2012</li>
+                        <li>2013</li>
+                        <li>2014</li>
+                        <li>2015</li>
+                        <li>2016</li>
+                        <li>2017</li>
+                        <li>2018</li>
+                        <li>2019</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </header>
+    
+    
+    <div class="container content-container col-11">
+        
+        
+        <div class="content-title">En çok izlenen filmler ve diziler</div>
+        
+        <div class="mini-slider-container">
+            <div class="mini-slider-content">
+                
+                <a href="#" class="mini-slider-item">
+                    <img src="./assets/media/posters/life_of_pi.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                    <img src="./assets/media/posters/avengers-endgame.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                    <img src="./assets/media/posters/mr-robot.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/life.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/shazam.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/titans.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/jocker.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/maleficent.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/parasite.jpg" alt="">
+                </a>
+                <a href="#" class="mini-slider-item">
+                        <img src="./assets/media/posters/addams_family_2019.jpg" alt="">
+                </a>
+                
+            </div>
+            <span class="mini-slider-prev">
+                <span class="fas fa-angle-left"></span>
+            </span>
+            <span class="mini-slider-next">
+                <span class="fas fa-angle-right"></span>
+            </span>
+        </div>
+        
+        <div class="content-title">Yeni eklenen diziler</div>
+        
+        <div class="series-container">
+            <div class="row justify-content-start">
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/supernatural.jpg" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Supernatural</span>
+                                <span class="series-info">15 sezon - 3 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item admins-choise">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/watchmen.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Watchmen</span>
+                                <span class="series-info">1 sezon - 1 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/the_flash.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">The Flash</span>
+                                <span class="series-info">6 sezon - 3 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/legacies.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Legacies</span>
+                                <span class="series-info">2 sezon - 3 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/mr_robot.jpg" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Mr. Robot</span>
+                                <span class="series-info">4 sezon - 3 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item season-finale">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/baby.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Baby</span>
+                                <span class="series-info">2 sezon finali</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/arrow.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Arrow</span>
+                                <span class="series-info">8 sezon - 2 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/godfather_of_harlem.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Godfather of harlem</span>
+                                <span class="series-info">1 sezon - 5 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/hawaii_five-0.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Hawaii five-0</span>
+                                <span class="series-info">10 sezon - 5 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/titans.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Titans</span>
+                                <span class="series-info">2 sezon - 8 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/power.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Titans</span>
+                                <span class="series-info">6 sezon - 9 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/the_blacklist.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">The Blacklist</span>
+                                <span class="series-info">7 sezon - 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/greys_anatomy.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Grey's Anatomy</span>
+                                <span class="series-info">16 sezon - 5 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/bojack_horseman.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Bojack Horseman</span>
+                                <span class="series-info">6 sezon - 8 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/riverdale.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Riverdale</span>
+                                <span class="series-info">4 sezon - 3 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/the_affair.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">The Affair</span>
+                                <span class="series-info">5 sezon - 10 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/s-w-a-t.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">S.W.A.T</span>
+                                <span class="series-info">3 sezon - 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/perfect_harmony.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Perfect Harmony</span>
+                                <span class="series-info">1 sezon - 5 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/the_simpsons.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">The Simpsons</span>
+                                <span class="series-info">31 sezon - 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item season-finale">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/looking_for_alaska.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Looking for Alaska</span>
+                                <span class="series-info">1 sezon finali</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/magnum_pi.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Magnum P.I.</span>
+                                <span class="series-info">2 sezon - 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/how_to_get_away_with_murder.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">How to Get Away with Murder</span>
+                                <span class="series-info">6 sezon - 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item season-finale">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/modern_love.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Modern Love</span>
+                                <span class="series-info">1 sezon finali</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="series-item">
+                    <div class="col-12 h-100">
+                        <div class="row h-100 align-items-center">
+                            <img src="./assets/media/covers/evil.png" alt="" class="series-thumb">
+                            <div class="series-content">
+                                <span class="series-title">Evil</span>
+                                <span class="series-info">1 sezon 4 bölüm</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row justify-content-end">
+                <div class="series-pagination">
+                    
+                    <a href="#" class="series-pagination-item active-pg">1</a>
+                    <a href="#" class="series-pagination-item">2</a>
+                    <a href="#" class="series-pagination-item">3</a>
+                    <a href="#" class="series-pagination-item">4</a>
+                    <a href="#" class="series-pagination-item">5</a>
+                    
+                    <a href="#" class="series-pagination-item">></a>
+                    <a href="#" class="series-pagination-item">Son</a>
+                </div>
+            </div>
+        </div>
+   
+        
+        <div class="content-title">En son eklenen filmler</div>
+        
+        
+        
+        <div class="content">
+            <div class="film-content">
+                
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/jocker.jpg" alt="">
+                        </a>
+                        <span class="name">Jocker</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/jocker.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Jocker</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Joker, başarısız bir komedyen olan Arthur Fleck'in hayatına odaklanıyor. Toplum tarafından dışlanan bir adam olan Arthur, hayatta yapayalnızdır. Sürekli bir bağ kurma arayışında olan Arthur, yaşamını taktığı iki maske ile geçirir. Gündüzleri, geçimini sağlamak için palyaço maskesini yüzüne takan Arthur, geceleri ise asla üzerinden silip atamayacağı bir maske takar. Babasız büyüyen Arthur’u en yakın arkadaşı olan annesi Happy adıyla çağırır. Bu lakap, Arthur’un içindeki acıyı gizlemesine yardımcı olur. Ancak maruz kaldığı zorbalıklar, onun gitgide toluma aykırı bir adam haline gelmesine neden olur. Yavaş yavaş psikolojik olarak tekinsiz sulara yelken açılan Arthur, bir süre sonra kendisini Gotham Şehri’nde suç ve kaosun içinde bulur. Arthur, zamanla kendi kimliğinden uzaklaşıp Joker karakterine bürünür. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/life.jpg" alt="">
+                        </a>
+                        <span class="name">Life</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/life.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Life</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Uluslararası bir uzay istasyonunda görevli altı kişi, insanlık tarihinde çığır açacak bir keşfin eşiğindedir. Bu görevli ekip, Mars'ta ilk kez hayat olduğuna dair ip uçları bulur. Ekip araştırmalarını ilerlettikçe, beklenmedik sonuçlar almaya başlar çünkü buldukları bu hayat formu, kimsenin tahmin edemeyeceği kadar zekidir. Daniel Espinosa'nın yönettiği filmin senaryosunu Rhett Reese ve Paul Wernick kaleme aldı. Oyuncu kadrosunda ise Ryan Reynolds, Jake Gyllenhaal ve Rebecca Ferguson gibi isimlerin yer alıyor. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/shazam.jpg" alt="">
+                        </a>
+                        <span class="name">Shazam! 6 Güç</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/shazam.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Shazam! 6 Güç</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Herkesin içinde bir süper kahraman yatar, kimileri için bu birkaç sihirli sözcük ile ortaya çıkabilir! 1939 yılında yaratılan süper kahraman Shazam, genç Billy Batson'ın ihtiyaç anlarında sihirli sözcükleri söyleyerek dönüşebildiği bir süper kahraman. Sihirli sözcükleri söylediği an dünyanın en güçlü ölümlüsüne dönüşen karakter, gündelik hayatında okul ödevleri gibi meselelerle boğuşurken, süper kahraman olduğunda da dünyanın güvenliği için mücadele veriyor. Süleyman'ın bilgeliği, Herkül'ün gücü, Atlas'ın dayanıklığı, Zeus'un görlemi, Aşil'in cesareti ve Merkür'ün hızına sahip olan karakter, edindiği güçlerin sahiplerinin baş harfleri ile S.H.A.Z.A.M. adını alıyor. Peki bu güçlü yetişkin bedenini yöneten küçük bir çocuğun ruhu bir araya gelince ortaya nasıl bir kahraman çıkıyor? Uçabilir mi? X-ışını görüşü var mı? Ellerinden yıldırım atabiliyor mu? Sosyal bilgiler sınavını geçebilecek mi? Shazam yeteneklerinin sınırlarını bir çocuğun neşeli pervasızlığıyla test etmeye koyulur. Ancak, Dr. Thaddeus Sivana tarafından kontrol edilen kötülüklerin ölümcül güçleriyle savaşmak için bu yetkilere hızlıca hakim olmayı öğremesi gerekecektir... </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/avengers-endgame.jpg" alt="">
+                        </a>
+                        <span class="name">Avengers: Endgame</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/avengers-endgame.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Avengers: Endgame</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">"Avengers Infinity War"un ardından pek çok süper kahraman küle dönüşmüştür. Doktor Strange, Gamora, Drax, Mantis, genç Örümcek Adam, Black Panther, Bucky Barnes, Groot, Scarlet Witch, Vision, Star Lord, Maria Hill, The Wasp ve Nick Fury gibi pek çok kahraman, Thanos'un Sonsuzluk Eldiveni'ni ele geçirmesi ve kendi dengesini kurması yüzünden yok olmuştur ve dünya umutsuz haldedir. Dünya üzerinde kalan Black Widow, Kaptan Amerika, Thor ve Hulk kendi yaslarını tutmaktayken, Iron ve Nebula ise kontrol edemedikleri bir uzay gemisinin içinde, uzay boşluğunda sürüklenmektedirler. Süper kahramanlar takımı için işler pek de iyi görünmemektedir. Ancak Kuantum Bölgesi'nden çıkmanın bir yolunu bularak Avengers ekibinin kalan üyelerine giden Ant-Man, yeni bir umut ışığı olacaktır. Daha önce var olduğunu bilmedikleri bölgeler, kahramanlar ve evrenlerin varlığını öğrenen ekip, Thanos'un kurduğu bu çarpık dengeyi değiştirmek ve kendilerinden alınanı geri getirmek için hayatlarının en büyük mücadelesine girişeceklerdir. Hepsi kişisel olarak önem verdikleri şeyleri kaybetmiş olan kahramanlarımız için intikam vakti gelmiştir. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/life_of_pi.jpg" alt="">
+                        </a>
+                        <span class="name">Pi'nin Yaşamı</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/life-of-pi.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Pi'nin Yaşamı</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Hindistan’dan Kanada’ya giden bir yük gemisi, içindeki hemen hemen tüm canlılarla birlikte trajik şekilde batar. Bir can kurtaran filikası, uçsuz bucaksız vahşi Pasifik Okyanusu'nun ortasında yapayalnız kalır. Sandalın hayatta kalmayı başarabilen mürettebatı ise bir sırtlan, kırık bacaklı bir zebra, bir orangutan, Richard Parker adında üç yüz kiloluk bir Bengal kaplanı ve Pi adlı 16 yaşında Hintli bir çocuktan oluşmaktadır. Pi'nin hayvanat bahçesi işleten ve hayvanlarıyla göç yoluna koyulan ailesi, batan gemide yaşamını kaybetmiştir. Pi, kurtuluş yok gibi görünen bu okyanusta zayıf bir sandalda yanındaki hayvanlarla birlikte hayatta kalma savaşı verir ve keskin zekası ve zooloji bilgisiyle besin zincirine kurban gitmez. Ama şimdi Bengal Kaplanı ile teknede baş başa kalmıştır. Dev kaplana yem olmamak için hayvanla anlaşmanın ve yakınlaşmanın yollarını bulur. Sıra dışı yolculuk sona ermeden büyülü bir adaya varacaktır... Oscarlı sinemacı Ang Lee'nin yönetmenliğinde sıra dışı bir öykü sunan filmin kadrosu ise oldukça renkli. Daha önce oyunculuk deneyimi bulunmayan Suraj Sharma'nın Pi'yi canlandırdığı yapımda, ayrıca Tobey Maguire, Irrfan Khan, Adil Hussain rol alıyor. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/maleficent.jpg" alt="">
+                        </a>
+                        <span class="name">Melefiz</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/maleficent.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Melefiz</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Klasik Uyuyan Güzel masalına hiç kötünün tarafından bakmayı denediniz mi? Barışçıl bir orman krallığında büyüdüğü için huzurlu bir hayata sahip olan Malefiz, görkemli siyah kanatlara sahip güzel, saf ve genç bir kadındır, ta ki bir zamanlar inandığı adam olan Stephan topraklarının düzenini tehdit edinceye kadar… Malefiz, topraklarının koruyucusu olur ama acımasız bir ihanete uğrayınca o saf kalbi taşa dönüşür. Onun bu kadar kin ve öfke dolu olmasının nedeni budur, Aurora'yı 100 yıllık bir ölüme mahkum etmesi de tüm bu çektiği acıların sonucudur... Bu lanetin hikayesini anlatan filmin yönetmenliğini Robert Stromberg üstlenirken, başrol Malefiz'i Angelina Jolie canlandırıyor. Genç prenses ise Elle Fanning oynarken kendisine kadroda Sharlto Copley, Miranda Richardson, Sam Riley, Kenneth Cranham gibi tecrübeli oyuncular eşlik ediyor. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/addams_family_2019.jpg" alt="">
+                        </a>
+                        <span class="name">Addams Ailesi</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/addams-2019.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Addams Ailesi</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Kocasına ve çocuklarına kendini adamış bir kadın olan Morticia, ailesini bir arada tutan soluk tutkaldır. Güler yüzlü, kötücül ve tutkulu bir şekilde karısına aşık olan aile babası Gomez, her zaman girişimci ruhunu korumaktadır. Ailenin çocukları da oldukça şahsına münhasır bireylerdir. Uzun örgüleri ve iğneleyici mizahı ile zeki genç kız Wednesday ve bulabileceği en büyük tehdit ve tehlikelerin peşinden koşan 10 yaşındaki Pugsley. Ancak evin bireyleri bunlarla sınırlı değildir. Ailenin çılgın macası Fester iyi huylu, neşeli ve her şekilde kargaşaya yol açabilirken, Büyükanne ise yarasalar ve kafatasları gibi şekiller vererek pişirdiği şekerli kurabiyeleri seven torunlarına tapar. Aile yaklaşan kutlamaları için hazırlıkların ortasındayken, Margaux Needler ortaya çıkar. Margaux Needler sevilen bir reality-show programının kraliçesidir ve banliyö tipi pastel mükemmelliğe kendini adamıştır. Bu iki farklı cephenin karşılaşması nasıl sonuçlanacaktır?... </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/parasite.jpg" alt="">
+                        </a>
+                        <span class="name">Parazit</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/parasite.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Parazit</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Park Ailesi'yle tanışın: soyla gelen servetin klasik bir tablosu. Diğer yanda ise Kim Ailesi, sokak zekası bakımından zengin ama başka hiçbir zenginliğe sahip değil. Şans veya kader olsun, bu iki ev halkı bir şekilde bir araya gelir ve Kim ailesi altın bir fırsatın varlığını hemen sezer. Kolej çağındaki Ki-woo tarafından manipülasyon konusunda yetiştirilen Kim çocukları, öğretmen ve sanat terapisti görevleriyle kendilerini Park ailesinin arasına çabucak yerleştirir. Kim'ler “vazgeçilmez” lüks hizmetler sunarken, Parklar ise habersizce evlerindeki her şeyi Kim ailesine kaybetmektedir. Ancak kısa sürede bu düzen bir tehditle karşılaşır. Asalak bir misafir Kim ailesinin yeni keşfettikleri konforu tehdit eder hale geldiğinde, vahşi ve zorlayıcı bir üstünlük mücadelesi patlak verir. Bu mücadele Kim ve Park aileleri arasındaki kırılgan ekosistemi yıkmakla tehdit etmektedir... </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/john-wick-3.jpg" alt="">
+                        </a>
+                        <span class="name">John Wick: Chapter 3</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/john-wick-3.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">John Wick: Chapter 3</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">John Wick: Chapter 3 - Parabellum, gizli suikastçı birliğinden atılan John Wick'in, kellesi karşılığında ödül almak için peşine düşen suikastçılara karşı verdiği mücadeleyi konu ediyor. John Wick iki nedenden ötürü firaridir. Kellesi üzerine 14 milyon dolarlık açık sözleşme konulmuştur ve temel bir kuralı ihlal etmiştir; Continental Hotel'de birini öldürmüştür. Kurbanı ise açık kontratı sunan Yüksek Masa üyesidir. İşi bitmiş olması gereken John'a otelin yöneticisi Winston tarafından bir saatlik bir kaçış süresi verilir. Ardından üyeliği iptal edilecek, tüm hizmetlerden men edilecek ve diğer üyelerle iletişimi kesilecektir. John'un New York City'den kaçma mücadelesinde güvenebileceği tek şey servis endüstrisidir...  </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/spiderman-far-from-home.jpg" alt="">
+                        </a>
+                        <span class="name">Örümcek-Adam: Evden Uzakta</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/spiderman-far-from-home.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Örümcek-Adam: Evden Uzakta</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Örümcek-Adam: Evden Uzakta, arkadaşları ile gittiği okul gezisi sırasında gizemli bir görev üstlenmek zorunda kalan Peter Parker'a odaklanıyor. Örümcek Adam macerasının 2. devam halkası olan filmde Peter Parker’ı bir kez daha milyonlarca hayran kazanan yeni nesil Örümcek Adam Tom Holland canlandırıyor. Genç Peter Parker’ın maceralarının anlatılacağı filmin yönetmenliğini Jon Watts üstleniyor. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/creed-2.jpg" alt="">
+                        </a>
+                        <span class="name">Creed II: Efsane Yükseliyor</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/creed-2.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Creed II: Efsane Yükseliyor</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">2015 yapımı Creed: Efsanenin Doğuşu'nun devam halkası olan filmde hayat, genç boksör Adonis Creed için adeta denge sağlama mücadelesi haline gelmiştir. Bir sonraki büyük dövüşü için aldığı eğitim ve kişisel yükümlülüklerinin arasında denge sağlamaya çalışan Adonis, çok yakında ailesinin geçmişiyle bağları olan bir rakiple karşı karşıya gelecektir. Rocky ve Adonis ortak miraslarıyla yüzleşecek, savaşmaya değecek olan şeyleri sorgulayacak ve hiçbir şeyin ailenden daha önemli olmadığını keşfedeceklerdir. Rocky Balboa'ya bir kez daha Sylvester Stallone'un hayat verdiği devam halkasında, genç boksör Adonis Creed'i ise Michael B. Jordan canlandırıyor. Rocky evreninin ikonik kötü adamı Rus boksör Ivan Drago'nun da serinin hayranlarının karşısına çıktığı yapımda, Dolph Lundgren'in canlandırdığı Drago'nun oğlu Vitor'u ise Romen boksör Florian “Big Nasty” Munteanu canlandırıyor. Filmin kadrosunda, Adonis'in aşık olduğu Bianca rolünde ise, "Thor: Ragnarok" ile yıldızı parlayan Tessa Thompson da yer alıyor. </span>
+                    </div>
+                </div>
+                
+                <div class="film">
+                    <div class="film-cover">
+                        <div class="controls">
+                            <span class="fas fa-info control-item info-button"></span>
+                            <div class="fas fa-plus control-item"></div>
+                        </div>
+                        <a href="#">
+                            <img src="./assets/media/posters/interstellar.jpg" alt="">
+                        </a>
+                        <span class="name">Yıldızlararası</span>
+                    </div>
+                    <div class="film-description">
+                        <img src="./assets/media/info-posters/interstellar.jpg" alt="" class="desc-poster">
+                        <span class="desc-name">Yıldızlararası</span>
+                        <div class="desc-title">Filmin Konusu</div>
+                        <span class="story">Yıldızlararası'nda, teknik bilgisi ve becerisi yüksek olan Cooper, geniş mısır tarlalarında çiftçilik yaparak geçinmektedir; amacı iki çocuğuna güvenli bir hayat sunmaktır. Onlarla yaşayan Büyükbaba Donald çocuklara göz kulak olurken, henüz 10 yaşındaki kızı Murph şaşırtıcı bir zekaya sahiptir. Geçmişte bıraktığı biliminsanı kariyerini özleyen Cooper'un karşısına bir gün beklenmedik bir teklif çıkar ve ailesinin, dahası insanlığın güvenliği için zorlu bir karar alması gerekir... Christopher Nolan'ın, Jonathan Nolan ile kaleme aldığı ve yönetmenliğini sırtladığı filmin yıldız oyunculardan oluşan oyuncu kadrosunda Matthew McConaughey, Anne Hathaway, Jessica Chastain, Matt Damon, Bill Irwin, John Lithgow ve Michael Caine gibi isimler yer alıyor. Bilimkurgunun yanı sıra dramatik öğeler de içeren filmin senaryosu Fizikçi Kip S. Thorne'nun evrendeki 'Solucan Delikleri' teorisinden ilham alıyor. </span>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="film-pagination-container">
+                    <a href="#" class="film-pagination-item active">1</a>
+                    <a href="#" class="film-pagination-item">2</a>
+                    <a href="#" class="film-pagination-item">3</a>
+                    <a href="#" class="film-pagination-item">4</a>
+                    <a href="#" class="film-pagination-item">5</a>
+                    <a href="#" class="film-pagination-item">6</a>
+                    <a href="#" class="film-pagination-item">7</a>
+                    <a href="#" class="film-pagination-item">8</a>
+                    <a href="#" class="film-pagination-item">9</a>
+                    <a href="#" class="film-pagination-item">
+                        <span class="fas fa-angle-right"></span>
+                    </a>
+                    <a href="#" class="film-pagination-item">son</a>
+                </div>
+                
+            </div>
+            <div class="content-sidebar">
+                <div class="film-robot">
+                    
+                    <div class="robot-title">FİLM ROBOTU</div>
+                    
+                    <form action="#" method="POST">
+                        
+                        <!-- Tercih -->
+                        <label class="aurora-label aurora-select aurora-dark">
+                            <input type="hidden" name="film-type" class="aurora-control">
+                            <div class="select-container">
+                                <div class="select-content">
+                                    <p class="select-text"></p>
+                                    <i class="fas fa-angle-down select-content-appearance"></i>
+                                </div>
+                                <div class="option-container">
+                                    <div class="option" data-value="none">- Tercih -</div>
+                                    <div class="option" data-value="altyazi">- Altyazılı -</div>
+                                    <div class="option" data-value="dublaj">- Dublaj -</div>
+                                    <div class="option" data-value="yerli">- Yerli -</div>
+                                </div>
+                            </div>
+                        </label>
+                        
+                        <!-- Tarih -->
+                        <label class="aurora-label aurora-select aurora-dark">
+                            <input type="hidden" name="film-date" class="aurora-control">
+                            <div class="select-container">
+                                <div class="select-content">
+                                    <p class="select-text"></p>
+                                    <i class="fas fa-angle-down select-content-appearance"></i>
+                                </div>
+                                <div class="option-container" data-max="200">
+                                    <div class="option" data-value="none">- Tarih -</div>
+                                    <div class="option" data-value="2019">2019</div>
+                                    <div class="option" data-value="2018">2018</div>
+                                    <div class="option" data-value="2017">2017</div>
+                                    <div class="option" data-value="2016">2016</div>
+                                    <div class="option" data-value="2015">2015</div>
+                                    <div class="option" data-value="2014">2014</div>
+                                    <div class="option" data-value="2013">2013</div>
+                                    <div class="option" data-value="2012">2012</div>
+                                    <div class="option" data-value="2011">2011</div>
+                                    <div class="option" data-value="2010">2010</div>
+                                    <div class="option" data-value="2009">2009</div>
+                                </div>
+                            </div>
+                        </label>
+                        
+                        <!-- Kategori -->
+                        <label class="aurora-label aurora-select aurora-dark">
+                            <input type="hidden" name="film-date" class="aurora-control">
+                            <div class="select-container">
+                                <div class="select-content">
+                                    <p class="select-text"></p>
+                                    <i class="fas fa-angle-down select-content-appearance"></i>
+                                </div>
+                                <div class="option-container" data-max="200">
+                                    <div class="option" data-value="none">- Kategori -</div>
+                                    <div class="option" data-value="aile">Aile</div>
+                                    <div class="option" data-value="aksiyon">Aksiyon</div>
+                                    <div class="option" data-value="animasyon">Animasyon</div>
+                                    <div class="option" data-value="belgesel">Belgesel</div>
+                                    <div class="option" data-value="bilim+kurgu">Bilim Kurgu</div>
+                                    <div class="option" data-value="biyografi">Biyografi</div>
+                                    <div class="option" data-value="cizgi+film">Çizgi Film</div>
+                                    <div class="option" data-value="dans">Dans</div>
+                                    <div class="option" data-value="dram">Dram</div>
+                                    <div class="option" data-value="fantastik">Fantastik</div>
+                                    <div class="option" data-value="genclik">Gençlik</div>
+                                    <div class="option" data-value="gerilim">Gerilim</div>
+                                    <div class="option" data-value="hint">Hint</div>
+                                    <div class="option" data-value="komedi">Komedi</div>
+                                    <div class="option" data-value="korku">Korku</div>
+                                    <div class="option" data-value="macera">Macera</div>
+                                    <div class="option" data-value="müzikal">Müzikal</div>
+                                    <div class="option" data-value="polisiye">Polisiye</div>
+                                    <div class="option" data-value="romantik">Romantik</div>
+                                    <div class="option" data-value="savaş">Savaş</div>
+                                    <div class="option" data-value="spor">Spor</div>
+                                    <div class="option" data-value="suç">Suç</div>
+                                    <div class="option" data-value="tarih">Tarih</div>
+                                </div>
+                            </div>
+                        </label>
+                        
+                        <!-- Kategori -->
+                        <label class="aurora-label aurora-select aurora-dark">
+                            <input type="hidden" name="film-imdb" class="aurora-control">
+                            <div class="select-container">
+                                <div class="select-content">
+                                    <p class="select-text"></p>
+                                    <i class="fas fa-angle-down select-content-appearance"></i>
+                                </div>
+                                <div class="option-container">
+                                    <div class="option" data-value="none">- Imdb Puanı -</div>
+                                    <div class="option" data-value="9">9+</div>
+                                    <div class="option" data-value="8">8+</div>
+                                    <div class="option" data-value="7">7+</div>
+                                    <div class="option" data-value="6">6+</div>
+                                    <div class="option" data-value="5">5+</div>
+                                </div>
+                            </div>
+                        </label>
+                        
+                        <div class="col-12 p-0">
+                            <div class="row p-0">
+                                <div class="col-6 pr-1">
+                                    <input type="submit" class="robot-submit aurora-control aurora-dark" value="Getir">
+                                </div>
+                                <div class="col-6 pl-1">
+                                    <input type="reset" class="aurora-reset aurora-control aurora-dark" value="Temizle">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/libs/aurora-forms/aurora.js"></script>
+</body>
+</html>

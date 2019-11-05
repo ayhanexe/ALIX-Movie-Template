@@ -1,0 +1,247 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-LightItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-MediumItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-BoldItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-MediumItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Bold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-BoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-Black.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url("../fonts/Exo/Exo-BlackItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: Italic;
+}
+/*# sourceMappingURL=fonts.css.map */

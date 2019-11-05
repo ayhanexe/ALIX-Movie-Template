@@ -1,0 +1,123 @@
+
+$url:"../fonts/";
+
+$ubuntu:("Light",
+         "LightItalic",
+         "Medium",
+         "MediumItalic",
+         "Regular",
+         "Italic",
+         "Bold",
+         "BoldItalic");
+         
+$ubuntu_weights:(100,
+                 100,
+                 200, 
+                 200, 
+                 300, 
+                 300, 
+                 400, 
+                 400);
+         
+         
+$roboto:("Thin",
+         "ThinItalic",
+         "Light",
+         "LightItalic",
+         "Medium",
+         "MediumItalic",
+         "Regular",
+         "Italic",
+         "Bold",
+         "BoldItalic",
+         "Black",
+         "BlackItalic");
+    
+$roboto_weights:(100,
+                 100,
+                 200,
+                 200,
+                 300,
+                 300,
+                 400,
+                 400,
+                 500,
+                 500,
+                 600,
+                 600);
+                 
+$exo:("Thin",
+      "ThinItalic",
+      "ExtraLight",
+      "ExtraLightItalic",
+      "Light",
+      "LightItalic",
+      "Medium",
+      "MediumItalic",
+      "Regular",
+      "Italic",
+      "SemiBold",
+      "SemiBoldItalic",
+      "Bold",
+      "BoldItalic",
+      "ExtraBold",
+      "ExtraBoldItalic",
+      "Black",
+      "BlackItalic");
+      
+$exo_weights:(100,
+              100,
+              200,
+              200,
+              300,
+              300,
+              400,
+              400,
+              normal,
+              normal,
+              500,
+              500,
+              600,
+              600,
+              700,
+              700,
+              800,
+              800);
+      
+$fonts:(Ubuntu, Roboto, Exo);
+
+// Ubuntu
+@for $a from 1 through length($ubuntu) {
+    @font-face {
+        font-family:nth($fonts, 1);
+        src:url($url + nth($fonts, 1) + "/" + nth($fonts, 1) + "-" + nth($ubuntu, $a) + ".ttf") format("truetype");
+        font-weight:nth($ubuntu_weights, $a);
+        @if $a % 2 == 0 {
+            font-style:Italic;
+        }
+    }
+}
+
+// Roboto
+@for $b from 1 through length($roboto) {
+    @font-face {
+        font-family:nth($fonts, 2);
+        src:url($url + nth($fonts, 2) + "/" + nth($fonts, 2) + "-" + nth($roboto, $b) + ".ttf") format("truetype");
+        font-weight:nth($roboto_weights, $b);
+        @if $b % 2 == 0 {
+            font-style:Italic;
+        }
+    }
+}
+
+// Exo
+@for $c from 1 through length($exo) {
+    @font-face {
+        font-family:nth($fonts, 3);
+        src:url($url + nth($fonts, 3) + "/" + nth($fonts, 3) + "-" + nth($exo, $c) + ".ttf") format("truetype");
+        font-weight:nth($exo_weights, $c);
+        @if $c % 2 == 0 {
+            font-style:Italic;
+        }
+    }
+}

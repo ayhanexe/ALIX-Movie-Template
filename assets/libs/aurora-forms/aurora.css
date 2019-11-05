@@ -1,0 +1,449 @@
+input.aurora-control[type=text], input.aurora-control[type=password], input.aurora-control[type=email], input.aurora-control[type=week], input.aurora-control[type=date], input.aurora-control[type=datetime], input.aurora-control[type=datetime-local], input.aurora-control[type=month], input.aurora-control[type=time], input.aurora-control[type=url], input.aurora-control[type=reset], input.aurora-control[type=submit], input.aurora-control[type=button] {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  text-indent: 15px;
+  margin: 5px 0px;
+  padding-left: 0 !important;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+input.aurora-control[type=text].aurora-dark, input.aurora-control[type=password].aurora-dark, input.aurora-control[type=email].aurora-dark, input.aurora-control[type=week].aurora-dark, input.aurora-control[type=date].aurora-dark, input.aurora-control[type=datetime].aurora-dark, input.aurora-control[type=datetime-local].aurora-dark, input.aurora-control[type=month].aurora-dark, input.aurora-control[type=time].aurora-dark, input.aurora-control[type=url].aurora-dark, input.aurora-control[type=reset].aurora-dark, input.aurora-control[type=submit].aurora-dark, input.aurora-control[type=button].aurora-dark {
+  background-color: #11171F;
+  color: #7E89AF;
+}
+
+input.aurora-control[type=text][type=reset], input.aurora-control[type=text][type=submit], input.aurora-control[type=text][type=button], input.aurora-control[type=password][type=reset], input.aurora-control[type=password][type=submit], input.aurora-control[type=password][type=button], input.aurora-control[type=email][type=reset], input.aurora-control[type=email][type=submit], input.aurora-control[type=email][type=button], input.aurora-control[type=week][type=reset], input.aurora-control[type=week][type=submit], input.aurora-control[type=week][type=button], input.aurora-control[type=date][type=reset], input.aurora-control[type=date][type=submit], input.aurora-control[type=date][type=button], input.aurora-control[type=datetime][type=reset], input.aurora-control[type=datetime][type=submit], input.aurora-control[type=datetime][type=button], input.aurora-control[type=datetime-local][type=reset], input.aurora-control[type=datetime-local][type=submit], input.aurora-control[type=datetime-local][type=button], input.aurora-control[type=month][type=reset], input.aurora-control[type=month][type=submit], input.aurora-control[type=month][type=button], input.aurora-control[type=time][type=reset], input.aurora-control[type=time][type=submit], input.aurora-control[type=time][type=button], input.aurora-control[type=url][type=reset], input.aurora-control[type=url][type=submit], input.aurora-control[type=url][type=button], input.aurora-control[type=reset][type=reset], input.aurora-control[type=reset][type=submit], input.aurora-control[type=reset][type=button], input.aurora-control[type=submit][type=reset], input.aurora-control[type=submit][type=submit], input.aurora-control[type=submit][type=button], input.aurora-control[type=button][type=reset], input.aurora-control[type=button][type=submit], input.aurora-control[type=button][type=button] {
+  -webkit-transition: -webkit-transform 0.15s ease-out, -webkit-box-shadow 0.15s ease-out;
+  transition: -webkit-transform 0.15s ease-out, -webkit-box-shadow 0.15s ease-out;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out, -webkit-transform 0.15s ease-out, -webkit-box-shadow 0.15s ease-out;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(4, 6, 8, 0.5);
+          box-shadow: 0px 5px 0px 0px rgba(4, 6, 8, 0.5);
+}
+
+input.aurora-control[type=text][type=reset]:hover, input.aurora-control[type=text][type=submit]:hover, input.aurora-control[type=text][type=button]:hover, input.aurora-control[type=password][type=reset]:hover, input.aurora-control[type=password][type=submit]:hover, input.aurora-control[type=password][type=button]:hover, input.aurora-control[type=email][type=reset]:hover, input.aurora-control[type=email][type=submit]:hover, input.aurora-control[type=email][type=button]:hover, input.aurora-control[type=week][type=reset]:hover, input.aurora-control[type=week][type=submit]:hover, input.aurora-control[type=week][type=button]:hover, input.aurora-control[type=date][type=reset]:hover, input.aurora-control[type=date][type=submit]:hover, input.aurora-control[type=date][type=button]:hover, input.aurora-control[type=datetime][type=reset]:hover, input.aurora-control[type=datetime][type=submit]:hover, input.aurora-control[type=datetime][type=button]:hover, input.aurora-control[type=datetime-local][type=reset]:hover, input.aurora-control[type=datetime-local][type=submit]:hover, input.aurora-control[type=datetime-local][type=button]:hover, input.aurora-control[type=month][type=reset]:hover, input.aurora-control[type=month][type=submit]:hover, input.aurora-control[type=month][type=button]:hover, input.aurora-control[type=time][type=reset]:hover, input.aurora-control[type=time][type=submit]:hover, input.aurora-control[type=time][type=button]:hover, input.aurora-control[type=url][type=reset]:hover, input.aurora-control[type=url][type=submit]:hover, input.aurora-control[type=url][type=button]:hover, input.aurora-control[type=reset][type=reset]:hover, input.aurora-control[type=reset][type=submit]:hover, input.aurora-control[type=reset][type=button]:hover, input.aurora-control[type=submit][type=reset]:hover, input.aurora-control[type=submit][type=submit]:hover, input.aurora-control[type=submit][type=button]:hover, input.aurora-control[type=button][type=reset]:hover, input.aurora-control[type=button][type=submit]:hover, input.aurora-control[type=button][type=button]:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(4, 6, 8, 0.5);
+          box-shadow: 0px 0px 0px 0px rgba(4, 6, 8, 0.5);
+}
+
+input.aurora-control.fake-text-input {
+  padding-right: 37px !important;
+}
+
+input.aurora-control:active, input.aurora-control:focus {
+  outline: none;
+}
+
+.aurora-label {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 5px 0px;
+}
+
+.aurora-label .input-title {
+  color: #7E89AF;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 0.82em;
+  cursor: pointer;
+}
+
+.aurora-label .aurora-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #7E89AF;
+  -webkit-transition: top 0.15s ease-out, left 0.15s ease-out;
+  transition: top 0.15s ease-out, left 0.15s ease-out;
+  cursor: text;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+.aurora-label .aurora-placeholder.focused {
+  top: -10px;
+  left: 5px;
+}
+
+.aurora-label input {
+  margin: 0 !important;
+}
+
+.aurora-label.aurora-select {
+  width: 100%;
+}
+
+.aurora-label.aurora-select .select-container {
+  width: auto;
+  height: auto;
+}
+
+.aurora-label.aurora-select .select-container .select-content {
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+  background-color: #11171F;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.aurora-label.aurora-select .select-container .select-content .select-text {
+  color: #7E89AF;
+  line-height: 40px;
+  text-indent: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.aurora-label.aurora-select .select-container .select-content:hover .select-content-appearance {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.aurora-label.aurora-select .select-container .select-content .select-content-appearance {
+  color: #7E89AF;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: .9em;
+  -webkit-transition: -webkit-transform 0.15s ease-out;
+  transition: -webkit-transform 0.15s ease-out;
+  transition: transform 0.15s ease-out;
+  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+}
+
+.aurora-label.aurora-select .select-container .option-container {
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+  background-color: #11171F;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: height .3s ease-out;
+  transition: height .3s ease-out;
+}
+
+.aurora-label.aurora-select .select-container .option-container .option {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  text-indent: 15px;
+  line-height: 35px;
+  color: #7E89AF;
+  margin: 5px 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 0.85em;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s ease-out;
+  transition: background-color 0.15s ease-out;
+}
+
+.aurora-label.aurora-select .select-container .option-container .option:hover {
+  background-color: #151c26;
+}
+
+.aurora-label.aurora-select .select-container .option-container .option.active-option {
+  background-color: #151c26;
+}
+
+.aurora-label.aurora-password input[type=password] {
+  padding-right: 37px !important;
+}
+
+.aurora-label.aurora-password .password-icon {
+  color: #424c6b;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.aurora-label.aurora-password .password-icon.eye-active {
+  color: #7E89AF;
+}
+
+.aurora-label.aurora-checkbox {
+  width: auto;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: 2px 15px 2px 0;
+}
+
+.aurora-label.aurora-checkbox .custom-checkbox {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.aurora-label.aurora-checkbox .custom-checkbox .checkbox-content {
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-color: #FF4D6B;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+}
+
+.aurora-label.aurora-checkbox .custom-checkbox.checkbox-rounded {
+  border-radius: 50%;
+}
+
+.aurora-label.aurora-checkbox .custom-checkbox.checkbox-rounded .checkbox-content {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 50%;
+}
+
+.aurora-label.aurora-checkbox input[type=checkbox].aurora-control {
+  display: none;
+}
+
+.aurora-label.aurora-checkbox input[type=checkbox].aurora-control:checked + .custom-checkbox .checkbox-content {
+  opacity: 1;
+}
+
+.aurora-label.aurora-radio {
+  width: auto;
+  margin: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.aurora-label.aurora-radio input[type=radio].aurora-control {
+  display: none;
+}
+
+.aurora-label.aurora-radio input[type=radio].aurora-control + .radio {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #161823;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.aurora-label.aurora-radio input[type=radio].aurora-control + .radio .radio-content {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 50%;
+  -webkit-transition: background 0.15s ease-out;
+  transition: background 0.15s ease-out;
+}
+
+.aurora-label.aurora-radio input[type=radio].aurora-control:checked + .radio .radio-content {
+  background-color: #73FF7C;
+}
+
+.aurora-label.aurora-file {
+  width: auto;
+}
+
+.aurora-label.aurora-file input[type=file].aurora-control {
+  display: none;
+}
+
+.aurora-label.aurora-file .file-container {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aurora-label.aurora-file .file-container .file {
+  width: 100%;
+  height: 30px;
+  background: #1c1e2c;
+  cursor: pointer;
+  margin: 5px auto;
+  border: 2px solid rgba(22, 24, 35, 0.5);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+.aurora-label.aurora-file .file-container .file .file-filter {
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 24, 35, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+}
+
+.aurora-label.aurora-file .file-container .file .file-filter .file-icon {
+  color: #7E89AF;
+  font-size: 0.85em;
+  opacity: .7;
+}
+
+.aurora-label.aurora-file .file-container .file .file-filter .file-name {
+  color: #7E89AF;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 0.85em;
+  display: none;
+}
+
+.aurora-label.aurora-file .file-container .file:hover .file-filter {
+  opacity: .4;
+}
+
+.aurora-label.aurora-file .file-container .reset-file {
+  width: auto;
+  height: auto;
+  padding: 3px 9px;
+  cursor: pointer;
+  background: #181a26;
+  border-radius: 5px;
+  display: none;
+}
+
+.aurora-label.aurora-file .file-container .reset-file .reset-icon {
+  opacity: .7;
+  color: #7E89AF;
+}
+
+.aurora-label.aurora-file.file-image .file {
+  width: 100px;
+  height: 100px;
+  background: #202333;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px auto;
+  border: 2px solid rgba(22, 24, 35, 0.5);
+  overflow: hidden;
+}
+
+.aurora-label.aurora-file.file-image .file .file-filter {
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 24, 35, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+}
+
+.aurora-label.aurora-file.file-image .file .file-filter .file-icon {
+  color: #7E89AF;
+  font-size: 1.2em;
+  opacity: .7;
+  -webkit-transition: opacity 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  transition: opacity 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  transition: opacity 0.15s ease-out, transform 0.15s ease-out;
+  transition: opacity 0.15s ease-out, transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+}
+
+.aurora-label.aurora-file.file-image .file:hover .file-filter {
+  opacity: .4;
+}
+
+.aurora-label.aurora-file.file-image .file:hover .file-filter .file-icon {
+  opacity: 1;
+  -webkit-transform: rotateZ(45deg) scale(1.1);
+          transform: rotateZ(45deg) scale(1.1);
+}
+
+.aurora-label.aurora-file.file-image .input-title {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  display: block;
+  text-align: center;
+}
+
+.aurora-label.aurora-file.file-selected .file-filter {
+  padding: 0px 5px;
+}
+
+.aurora-label.aurora-file.file-selected .file-filter .file-icon {
+  display: none;
+}
+
+.aurora-label.aurora-file.file-selected .reset-file {
+  display: block;
+}
+/*# sourceMappingURL=aurora.css.map */
